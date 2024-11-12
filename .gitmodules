@@ -1,0 +1,3 @@
+[submodule "just-hello-c"]
+	path = just-hello-c
+	url = git@github.com:widlarizer/just-hello-c.git
