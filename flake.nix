@@ -15,7 +15,7 @@
         packages.default = pkgs.stdenv.mkDerivation {
           name = "hello";
           src = ./.;
-          buildPhase = "gcc -o hello hello.c";
+          buildPhase = "gcc -o hello just-hello-c/hello.c";
           installPhase = ''
             mkdir -p $out/bin
             cp hello $out/bin/
